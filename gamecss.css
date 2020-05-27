@@ -1,0 +1,27 @@
+body{
+        margin:20 px;
+        border:20 px;
+        padding:20 px;
+        width: 6in;
+        height: 7in;
+        background-color:rgb(230, 229, 173);
+        font-family: "Times New Roman", sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18pt;
+        }
+    input[type=button]{
+        background-color: rgb(0, 255, 21);
+        height:50px; 
+        width: 2in;
+        font-size:40px; 
+        border-radius:10px; 
+        margin-top: 0.2in;;
+        margin-left: 1in;
+        position: relative;
+    }
+
+    #game{
+        position: absolute;
+    }
+   

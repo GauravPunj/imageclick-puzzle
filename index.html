@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+
+    -This is my original work and shall not be used without my prior permission
+	-This is a simple click event puzzle which displays the true picture of the grid by clicking each image part.
+	-It calls the function defined in javascript gamescript.js file imageclick function when any of the images are clicked. 
+	-The function defined in javascript changes the source of the image to the actual desired source.
+    -->
+
+    <head>
+    <title>Ready to Play!!</title>
+    <script src="gamescript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="gamecss.css"
+    rel="stylesheet"
+    type="text/css">
+
+
+
+    
+</head>
+
+<body>
+
+    <span id="game">
+            <h1 id="welcome"></h1>
+            <table id = "table" align="center">
+                <tr>
+                <td width="250" height = '250'>
+                <table border="10">
+                    <!--onClick calls the imageClicked function defined in the gamesript javascript-->
+							<tr>
+                                <td><img src="r1c3.jpg" id="1" onClick="imageClicked(1)" /></td>
+                                <td><img src="r2c3.jpg" id="2" onClick="imageClicked(2)" /></td>
+                                <td><img src="r1c1.jpg" id="3" onClick="imageClicked(3)" /></td>
+					</tr>
+                            <tr>
+                                <td><img src="r2c2.jpg" id="4" onClick="imageClicked(4)" /></td>
+                                <td><img src="r3c2.jpg" id="5" onClick="imageClicked(5)" /></td>
+                                <td><img src="r1c2.jpg" id="6" onClick="imageClicked(6)" /></td>
+                            </tr>
+                            <tr>
+                                <td><img src="r3c3.jpg" id="7" onClick="imageClicked(7)" /></td>
+                                <td><img src="r2c1.jpg" id="8" onClick="imageClicked(8)" /></td>
+                                <td><img src="r3c1.jpg" id="9" onClick="imageClicked(9)" /></td>
+                            </tr>
+                        </table>
+                    </span>
+</body>
+
+
+</html>
